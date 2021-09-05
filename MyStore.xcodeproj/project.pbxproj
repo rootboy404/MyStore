@@ -11,6 +11,8 @@
 		3EC748D126E3F02700A7DD7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC748D026E3F02700A7DD7F /* ContentView.swift */; };
 		3EC748D326E3F02800A7DD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC748D226E3F02800A7DD7F /* Assets.xcassets */; };
 		3EC748D626E3F02800A7DD7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC748D526E3F02800A7DD7F /* Preview Assets.xcassets */; };
+		3EC748DF26E3F11B00A7DD7F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EC748DD26E3F11B00A7DD7F /* Model.xcdatamodeld */; };
+		3EC748E126E3F54100A7DD7F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC748E026E3F54100A7DD7F /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3EC748D226E3F02800A7DD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC748D526E3F02800A7DD7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EC748D726E3F02800A7DD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC748DE26E3F11B00A7DD7F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3EC748E026E3F54100A7DD7F /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3EC748CE26E3F02700A7DD7F /* MyStoreApp.swift */,
 				3EC748D026E3F02700A7DD7F /* ContentView.swift */,
 				3EC748D226E3F02800A7DD7F /* Assets.xcassets */,
+				3EC748DD26E3F11B00A7DD7F /* Model.xcdatamodeld */,
+				3EC748E026E3F54100A7DD7F /* PersistenceController.swift */,
 				3EC748D726E3F02800A7DD7F /* Info.plist */,
 				3EC748D426E3F02800A7DD7F /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			files = (
 				3EC748D126E3F02700A7DD7F /* ContentView.swift in Sources */,
 				3EC748CF26E3F02700A7DD7F /* MyStoreApp.swift in Sources */,
+				3EC748DF26E3F11B00A7DD7F /* Model.xcdatamodeld in Sources */,
+				3EC748E126E3F54100A7DD7F /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +336,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EC748DD26E3F11B00A7DD7F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EC748DE26E3F11B00A7DD7F /* Model.xcdatamodel */,
+			);
+			currentVersion = 3EC748DE26E3F11B00A7DD7F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3EC748C326E3F02600A7DD7F /* Project object */;
 }
